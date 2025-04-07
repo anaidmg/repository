@@ -3,8 +3,7 @@ import streamlit as st
 import plotly.express as px
 
 # Leer el archivo CSV
-car_data = pd.read_csv(
-    "C:/Users/ovana/OneDrive/Documents/Projects/repository/projects/sprint_7/vehicles_us.csv")
+car_data = pd.read_csv("vehicles_us.csv")
 st.title('Gráficos de visualización de datos de anuncios de coches')
 st.text('Por favor selecciona el gráfico que deseas visualizar')
 
