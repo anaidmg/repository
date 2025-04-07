@@ -1,0 +1,1 @@
+print('This is my first python script written in Visual Studio Code')
